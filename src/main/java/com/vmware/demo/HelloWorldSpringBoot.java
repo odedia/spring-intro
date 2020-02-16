@@ -13,7 +13,7 @@ public class HelloWorldSpringBoot {
         @Autowired MessageRenderer renderer;
 
         public static void main(String... args) {
-                SpringApplication.run(HelloWorldSpringBoot.class, args);
+            SpringApplication.run(HelloWorldSpringBoot.class, args);
         }
 
         @PostConstruct
